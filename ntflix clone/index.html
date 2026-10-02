@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" class="logo">
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bell"></i>
+            <div class="profile">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Profile">
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Stranger Things</h1>
+            <div class="hero-meta">
+                <span class="match">98% Match</span>
+                <span class="year">2016</span>
+                <span class="rating">TV-14</span>
+                <span class="seasons">4 Seasons</span>
+            </div>
+            <p class="hero-description">
+                When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-play">
+                    <i class="fas fa-play"></i> Play
+                </button>
+                <button class="btn btn-more-info">
+                    <i class="fas fa-info-circle"></i> More Info
+                </button>
+            </div>
+        </div>
+        <div class="hero-vignette"></div>
+    </header>
+
+    <!-- Movie Rows -->
+    <main class="content">
+        <!-- Trending Now -->
+        <section class="row">
+            <h2 class="row-title">Trending Now</h2>
+            <div class="row-posters">
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">95% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">2h 15m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">92% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">1h 45m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">88% Match</span>
+                            <span class="rating">PG-13</span>
+                            <span class="duration">2h 30m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">90% Match</span>
+                            <span class="rating">R</span>
+                            <span class="duration">1h 50m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1533488765986-dfa2a9939acd?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">96% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">2 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1518676595869-3a8245d0f33e?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">93% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">1h 30m</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top 10 Movies -->
+        <section class="row">
+            <h2 class="row-title">Top 10 Movies in Your Country</h2>
+            <div class="row-posters top-10">
+                <div class="poster top-10-item">
+                    <span class="rank">1</span>
+                    <img src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=300&h=450&fit=crop" alt="Movie">
+                </div>
+                <div class="poster top-10-item">
+                    <span class="rank">2</span>
+                    <img src="https://images.unsplash.com/photo-1596727147705-54a9d099308d?w=300&h=450&fit=crop" alt="Movie">
+                </div>
+                <div class="poster top-10-item">
+                    <span class="rank">3</span>
+                    <img src="https://images.unsplash.com/photo-1535016120720-40c6874c3b13?w=300&h=450&fit=crop" alt="Movie">
+                </div>
+                <div class="poster top-10-item">
+                    <span class="rank">4</span>
+                    <img src="https://images.unsplash.com/photo-1594909122849-11daa4e4d2f2?w=300&h=450&fit=crop" alt="Movie">
+                </div>
+                <div class="poster top-10-item">
+                    <span class="rank">5</span>
+                    <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=300&h=450&fit=crop" alt="Movie">
+                </div>
+                <div class="poster top-10-item">
+                    <span class="rank">6</span>
+                    <img src="https://images.unsplash.com/photo-1517604931442-7106a0144e8a?w=300&h=450&fit=crop" alt="Movie">
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular on Netflix -->
+        <section class="row">
+            <h2 class="row-title">Popular on Netflix</h2>
+            <div class="row-posters">
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">89% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">94% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">2h</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">91% Match</span>
+                            <span class="rating">R</span>
+                            <span class="duration">1h 55m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">87% Match</span>
+                            <span class="rating">PG-13</span>
+                            <span class="duration">2h 10m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">95% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">4 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">92% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">1h 40m</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Releases -->
+        <section class="row">
+            <h2 class="row-title">New Releases</h2>
+            <div class="row-posters">
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1596727147705-54a9d099308d?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">97% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">2h 20m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">85% Match</span>
+                            <span class="rating">PG-13</span>
+                            <span class="duration">1h 35m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">93% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">2 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1517604931442-7106a0144e8a?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">90% Match</span>
+                            <span class="rating">R</span>
+                            <span class="duration">2h 5m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1594909122849-11daa4e4d2f2?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">88% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">1h 48m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1535016120720-40c6874c3b13?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">91% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TV Shows -->
+        <section class="row">
+            <h2 class="row-title">TV Shows</h2>
+            <div class="row-posters">
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">96% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">5 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">89% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">2 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1533488765986-dfa2a9939acd?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">94% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">4 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1518676595869-3a8245d0f33e?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">87% Match</span>
+                            <span class="rating">PG-13</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">92% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">1 Season</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster">
+                    <img src="https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?w=300&h=450&fit=crop" alt="Movie">
+                    <div class="poster-overlay">
+                        <div class="poster-buttons">
+                            <i class="fas fa-play-circle"></i>
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="poster-info">
+                            <span class="match">90% Match</span>
+                            <span class="rating">R</span>
+                            <span class="duration">6 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-social">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <a href="#">Audio Description</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="footer-column">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+            </div>
+            <div class="footer-column">
+                <a href="#">Gift Cards</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Corporate Information</a>
+            </div>
+            <div class="footer-column">
+                <a href="#">Media Center</a>
+                <a href="#">Privacy</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="footer-btn">Service Code</button>
+        <p class="footer-copyright">© 2024 Netflix Clone. All rights reserved.</p>
+    </footer>
+
+    <!-- Movie Modal -->
+    <div class="modal" id="movieModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-hero">
+                <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1200&h=600&fit=crop" alt="Movie">
+                <div class="modal-hero-content">
+                    <h2>Movie Title</h2>
+                    <div class="modal-buttons">
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play</button>
+                        <button class="btn btn-add"><i class="fas fa-plus"></i> My List</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-info">
+                <div class="modal-meta">
+                    <span class="match">95% Match</span>
+                    <span class="year">2023</span>
+                    <span class="rating">TV-MA</span>
+                    <span class="duration">2h 15m</span>
+                </div>
+                <p class="modal-description">
+                    An exciting adventure that takes you on a journey through mysterious lands and unexpected twists.
+                </p>
+                <div class="modal-cast">
+                    <p><span>Cast:</span> Actor Name, Actress Name, Supporting Actor</p>
+                    <p><span>Genres:</span> Action, Adventure, Sci-Fi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
